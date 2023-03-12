@@ -1,0 +1,78 @@
+img.Group {
+    width: 40px;
+    height: 32px;
+    margin: 0 19px 25px 0;
+    object-fit: contain;
+  }
+  .Rectangle {
+    width: 440px;
+    height: 437px;
+    margin: 109px 376px 0 0;
+    padding: 35px 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .Todo-List {
+    width: 100px;
+    height: 28px;
+    margin: 25px 72.5px 35px 0.5px;
+    font-family: MarkPro;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--dark-blue-grey);
+  }
+  .Todos---Web {
+    width: 1343px;
+    height: 803px;
+    padding: 14px 10px 225px 468px;
+    background-color: #f6f7f8;
+  }
+  .Line-Copy {
+    border-block-start-width : 2;
+    border-block-end-width : 3;
+    border-top-width : 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width : 4;
+    width: 380px;
+  }
+  .Line-Copy::placeholder {
+    width: 123px;
+    height: 20px;
+    margin: 35px 50px 10px 0;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: gray;
+  }
+  .Make-a-todo-list {
+    width: 126px;
+    height: 20px;
+    margin: 26px 15px 14px 14px;
+    font-family: MarkPro;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dark-blue-grey);
+  }
+  .List-Member {
+    display: flex;
+    flex-direction: row;
+  }
+  .filter {
+    display: flex;
+    bottom: 0;
+  }
